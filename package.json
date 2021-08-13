@@ -1,6 +1,6 @@
 {
-  "name": "lazyframe",
-  "description": "Dependency-free library for lazyloading iframes",
+  "name": "lazyframe-fork",
+  "description": "Fork of Dependency-free library for lazyloading iframes",
   "version": "2.2.4",
   "author": "Viktor Bergehall",
   "bugs": {
@@ -34,7 +34,7 @@
   "main": "dist/lazyframe.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vb/lazyframe.git"
+    "url": "git+https://github.com/Nalus/lazyframe.git"
   },
   "scripts": {
     "build": "./node_modules/.bin/rollup -c",

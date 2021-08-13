@@ -127,6 +127,7 @@ Callback function with the thumbnail URL
   data-vendor=""
   data-title=""
   data-thumbnail=""
+  data-thumbnailquality="hq"
   data-src=""
   data-ratio="1:1"
   data-initinview="false"
@@ -145,6 +146,10 @@ Attribute for custom title. Leave empty to get value from noembed.com.
 ### `data-thumbnail`
 
 Attribute for custom thumbnail. Leave empty to get value from noembed.com.
+
+### `data-thumbnailquality`
+
+Attribute for custom thumbnail quality. Leave empty to get default HQ value. Use "maxres" for the best quality (supported for HQ videos only).
 
 ### `data-src`
 
